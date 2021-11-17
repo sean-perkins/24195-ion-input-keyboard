@@ -1,0 +1,17 @@
+:host {
+  display: block;
+  border-bottom: 1px solid #eee;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 2rem;
+  padding: 2rem 1.5rem;
+}
+
+.header .title {
+  font-size: 1.2rem;
+  font-weight: medium;
+}

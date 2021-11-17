@@ -1,0 +1,12 @@
+<div class="header" (click)="toggleExpanded()">
+  <span class="title">
+    {{ title }}
+  </span>
+  <ion-icon [name]="!expanded ? 'chevron-up-outline' : 'chevron-down-outline'"></ion-icon>
+</div>
+<div class="container" [hidden]="!expanded">
+  <ng-content></ng-content>
+</div>
+<div class="footer" [hidden]="!expanded">
+  <ion-button fill="clear" size="s" (click)="toggleExpanded()">{{ collapseText }}</ion-button>
+</div>
