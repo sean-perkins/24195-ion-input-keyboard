@@ -1,0 +1,7 @@
+{
+  "name": "gh-24195",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
